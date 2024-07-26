@@ -1,0 +1,36 @@
+header{
+   padding-top: 900px; 
+}
+
+body{
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    align-items: bottom;
+    position: relative;
+}
+.h1{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#lightdarkmode{
+    float: right;
+    position: relative;
+    object-fit: scale-down;
+    max-width: 50%;
+    max-height: 50%;
+    background-position: right;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
